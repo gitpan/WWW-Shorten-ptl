@@ -1,7 +1,7 @@
 package WWW::Shorten::ptl;
 use strict;
 use warnings;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use JSON::Any;
 use Carp;
@@ -157,7 +157,7 @@ WWW::Shorten::ptl - interface to shorten URLs with http://p.tl/
   my $res = $ptl->shorten($url);
   my $shorturl = $res->{short_url} || die "failed to shorten $url";
 
-  my $longurl = $ptl->extract($shorturl, direct => 1);
+  my $longurl = $ptl->extract($shorturl);
 
 or
 
