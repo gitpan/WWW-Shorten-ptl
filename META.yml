@@ -1,7 +1,7 @@
 ---
-abstract: 'interface to shorten URLs with http://p.tl/'
+abstract: "interface to shorten URLs with http://p.tl/\r"
 author:
-  - 'turugina <turugina {at} cpan.org>'
+  - "turugina <turugina {at} cpan.org>\r"
 build_requires:
   ExtUtils::MakeMaker: 6.42
 configure_requires:
@@ -26,4 +26,4 @@ requires:
   WWW::Shorten::generic: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.03
+version: 0.04

@@ -8,3 +8,8 @@ __DATA__
 turugina
 turugina {at} cpan.org
 WWW::Shorten::ptl
+API
+APIs
+tl
+url
+OO
